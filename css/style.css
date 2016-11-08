@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#alcoy {
+	background-image: url('../media/Asset 4.png'); 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-style: cover;
+	position: absolute;
+	height: 600px; 
+	width: 100%;
+}
+
+#info {
+	background-color: navy; 
+	position: absolute;
+	top: 550px;
+	height: 1500px; 
+	width: 100%;
+}
+
+#madelynCodes {
+	background-image: url('../media/Asset 5.png'); 
+	background-repeat: no-repeat; 
+	height: 200px;
+	width: auto;
+}
