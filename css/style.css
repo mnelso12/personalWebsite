@@ -1,6 +1,15 @@
 body {
 	width: 100%;
 	margin: 0 auto;
+	text-align: center;
+	background-color: #22385b;
+}
+
+#centeredContainer {
+	width: 1100px; 
+	max-width: 1100px; 
+	text-align: left; 
+	margin: 0px auto; 	
 }
 
 #alcoy {
@@ -12,6 +21,7 @@ body {
 	position: absolute;
 	height: 600px; 
 	width: 100%;
+	max-width: 1100px;
 }
 
 #info {
@@ -19,6 +29,7 @@ body {
 	position: absolute;
 	top: 600px;
 	height: 1500px; 
+	max-width: 1100px;
 	width: 100%;
 	display: block;
 	margin: auto;
@@ -26,13 +37,10 @@ body {
 
 #madelynCodes {
 	position: absolute;
-	/*
-	max-width: 650px;
-	*/
 	width: 70%;
 	height: auto;
 	margin: 15%;
-	top: -330px;
+	top: -375px;
 }
 
 #nav {
