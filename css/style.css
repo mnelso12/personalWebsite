@@ -3,6 +3,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	background-color: #22385b;
+	font-family: 'Raleway', sans-serif;
 }
 
 #centeredContainer {
@@ -62,6 +63,108 @@ li {
 li a{
 	text-decoration: none;
 	color: white;
-	font-family: "Lucida Console", Monaco, monospace;
 }
 
+#bio {
+	color: white;
+	margin: 80px;
+}
+
+h3 {
+	color: #f9debd;
+}
+
+p {
+	color: #fcfaf4;
+}
+
+#profile {
+	height: 400px;
+	width: 100%;
+	background-color: #720a01;
+}
+
+#profilePicBorder {
+	float: right;
+	margin: 40px;
+	background-color: #509df4;
+	border-radius: 50%;
+	height: 350px;
+	width: 350px; 
+	box-shadow: 1px 1px 30px #000000;
+}
+
+#profilePic {
+	box-shadow: 1px 1px 7px #000000;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#grid {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	height: 150px;
+}
+
+td {
+	width: 20%;
+	max-width: 20%;
+	box-shadow: 1px 1px 3px #000000;
+}
+
+td:hover {
+	opacity: .7;
+	box-shadow: 1px 1px 15px #000000;
+}
+
+.dark-red {
+	background-color: #720a01;
+}
+
+.light-blue {
+	background-color: #509df4;
+}
+
+.dark-blue {
+	background-color: #22385b;
+}
+
+#trumpet {
+	background-size: cover;
+	background-position: center top;
+	background-image: url('../media/trumpet.jpg');
+}
+
+#dome {
+	background-size: cover;
+	background-position: center top;
+	background-image: url('../media/dome.jpg');
+}
+
+#knitting {
+	background-size: cover;
+	background-position: center top;
+	background-image: url('../media/knitting.jpg');
+}
+
+#violin {
+	background-size: cover;
+	background-position: center top;
+	background-image: url('../media/violin.jpg');
+}
+
+.tan {
+	background-color: #f9debd;
+}
+
+.off-white {
+	background-color: #fcfaf4;
+}
