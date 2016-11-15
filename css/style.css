@@ -1,29 +1,59 @@
 body {
-	margin: 0;
-	padding: 0;
+	width: 100%;
+	margin: 0 auto;
 }
 
 #alcoy {
-	background-image: url('../media/Asset 4.png'); 
+	background-image: url('../media/alcoy.png'); 
+	background-position: center;
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 
-	background-style: cover;
+	background-size: cover;
 	position: absolute;
 	height: 600px; 
 	width: 100%;
 }
 
 #info {
-	background-color: navy; 
+	background-color: #002b04; 
 	position: absolute;
-	top: 550px;
+	top: 600px;
 	height: 1500px; 
 	width: 100%;
+	display: block;
+	margin: auto;
 }
 
 #madelynCodes {
-	background-image: url('../media/Asset 5.png'); 
-	background-repeat: no-repeat; 
-	height: 200px;
-	width: auto;
+	position: absolute;
+	/*
+	max-width: 650px;
+	*/
+	width: 70%;
+	height: auto;
+	margin: 15%;
+	top: -330px;
 }
+
+#nav {
+	position: absolute;
+	top: 0px;
+	height: 50px;
+	width: 90%;
+	margin-right: 30px;
+	list-style-type: none;
+}
+
+li {
+	float: right;
+	margin: 10px;
+	padding: 10px;
+	font-size: 24px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
