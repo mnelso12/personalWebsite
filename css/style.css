@@ -7,8 +7,8 @@ body {
 }
 
 #centeredContainer {
-	width: 1100px; 
-	max-width: 1100px; 
+	width: 1000px; 
+	max-width: 1000px; 
 	text-align: left; 
 	margin: 0px auto; 	
 }
@@ -22,7 +22,7 @@ body {
 	position: absolute;
 	height: 600px; 
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1000px;
 }
 
 #info {
@@ -30,11 +30,12 @@ body {
 	background-color: #33825e; 
 	position: absolute;
 	top: 600px;
-	height: 1500px; 
-	max-width: 1100px;
+	/*height: 1500px;*/ 
+	max-width: 1000px;
 	width: 100%;
 	display: block;
 	margin: auto;
+	box-shadow: 0px 0px 10px #000000;
 }
 
 #madelynCodes {
@@ -83,7 +84,7 @@ li a:active{
 	margin: 80px;
 }
 
-h3 {
+#bio h3 {
 	color: #f9debd;
 }
 
@@ -92,27 +93,93 @@ p {
 }
 
 #profile {
-	height: 400px;
-	width: 100%;
-	background-color: #720a01;
+	margin: 0px;
+	padding: 0px;
 }
 
-#profilePicBorder {
-	float: right;
+#profile h1 {
+	color: #f9debd;
+}
+
+#profile h1:hover {
+	color: #33825e; 
+}
+
+#stuff h1 {
+	color: #5e3c58;
+}
+
+#stuff h1:hover {
+	color: #509df4;
+}
+
+
+.middleContent {
+	height: 450px;
+	display: table-cell;
+ 	vertical-align: middle;
+ 	text-align: center;
+	width: 50%;
+	max-width: 50%;
+}
+
+.middleContent h1 {
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+
+.circleBorder {
 	margin: 40px;
-	background-color: #509df4;
+	display: inline-block;
 	border-radius: 50%;
 	height: 350px;
 	width: 350px; 
-	box-shadow: 1px 1px 30px #000000;
+}
+
+#profilePicBorder {
+	box-shadow: 0px 0px 30px #000000;
+	background-color: #509df4;
+}
+
+#circle2Border {
+	box-shadow: 0px 0px 30px #000000;
+	background-color: #33825e; 
 }
 
 #profilePic {
-	box-shadow: 1px 1px 7px #000000;
+	margin: 25px;
+	text-align: center;
+	box-shadow: 0px 0px 7px #000000;
 }
 
-.img-circle {
-    border-radius: 50%;
+#idk {
+	width: 100%;
+	height: 250px;
+	padding: 40px;
+}	
+
+#contactMe {
+	width: 100%;
+	height: 142px;
+	padding: 40px;
+	background-color: #22385b;
+	color: #f9debd;
+}	
+
+#contactMe h1 {
+	font-weight: bold;
+}
+
+#socialMedia {
+	text-align: center;
+}
+
+.socialMediaLogo {
+	margin: 8px;
+	height: 50px;
+	width: auto;
 }
 
 #grid {
@@ -150,6 +217,18 @@ td:hover {
 	background-color: #22385b;
 }
 
+.dark-purple {
+	background-color: #5e3c58;
+}
+
+.tan {
+	background-color: #f9debd;
+}
+
+.off-white {
+	background-color: #fcfaf4;
+}
+
 #trumpet {
 	background-size: cover;
 	background-position: center top;
@@ -172,12 +251,4 @@ td:hover {
 	background-size: cover;
 	background-position: center top;
 	background-image: url('../media/violin.jpg');
-}
-
-.tan {
-	background-color: #f9debd;
-}
-
-.off-white {
-	background-color: #fcfaf4;
 }
