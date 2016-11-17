@@ -79,6 +79,10 @@ h3 {
 	font-weight: bold;
 }
 
+h4 {
+	width: 100%;
+}
+
 ul {
 	line-height: 140%; 
 }
@@ -99,4 +103,9 @@ ul {
 	/*background-color: yellow;*/
 	line-height: 20%;
 	margin: 20px;
+}
+
+.right {
+	text-align: right;
+	float: right;
 }
