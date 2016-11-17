@@ -27,15 +27,14 @@ body {
 
 #info {
 	/*background-color: #002b04;*/
-	background-color: #33825e; 
+	/*background-color: #33825e;*/
 	position: absolute;
 	top: 600px;
-	/*height: 1500px;*/ 
 	max-width: 1000px;
 	width: 100%;
 	display: block;
 	margin: auto;
-	box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 5px #000000;
 }
 
 #madelynCodes {
@@ -102,7 +101,7 @@ p {
 }
 
 #profile h1:hover {
-	color: #33825e; 
+	color: #4d5c4f; 
 }
 
 #stuff h1 {
@@ -121,6 +120,7 @@ p {
  	text-align: center;
 	width: 50%;
 	max-width: 50%;
+	box-shadow: 0px 0px 1px #000000;
 }
 
 .middleContent h1 {
@@ -159,13 +159,12 @@ p {
 }
 
 #circle1Border {
-	box-shadow: 0px 0px 30px #000000;
+	box-shadow: 1px 1px 10px #000000;
 	background-color: #509df4;
 }
 
 #circle2Border {
-	box-shadow: 0px 0px 30px #000000;
-	background-color: #33825e; 
+	box-shadow: 1px 1px 10px #000000;
 }
 
 #profilePic {
@@ -243,6 +242,11 @@ td:hover {
 
 .tan {
 	background-color: #f9debd;
+}
+
+.green {
+	background-color: #4c524d; 
+	/*background-color: #4d5c4f;*/ 
 }
 
 .off-white {
